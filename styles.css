@@ -1,0 +1,57 @@
+.invite {
+    position: absolute;
+    left: 50%;
+    top: 48%;
+    transform: translate(-50%, -50%); 
+    font-size: 50px;
+    text-align: center;
+    color:orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.rsvp{
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -50%); 
+    font-size: 50px;
+    text-align: center;
+    color:orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color:blueviolet;
+
+}
+
+svg{
+    position: absolute;
+    left: 15%;
+    top: -50%;
+    z-index: -1;
+    /* transform: translate(-50%, -50%); */
+}
+canvas{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+    z-index: -1;
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(0%);
+    }
+    100% {
+        transform: translateY(50vh);
+    }
+}
+
+.bruh{
+    animation: slideUp 1s ease-in-out;
+}
+/* canvas{
+    border: 2px solid black;
+} */
